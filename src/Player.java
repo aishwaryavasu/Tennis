@@ -52,7 +52,7 @@ public class Player {
     }
 
     public void print(){
-        System.out.println(name + "\t\t" + points + "\t\t" + games + "\t\t" + sets);
+        System.out.println(name + "\t\t" + sets + "\t\t" + games + "\t\t" + points);
     }
 
 }

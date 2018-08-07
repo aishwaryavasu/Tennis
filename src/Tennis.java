@@ -13,7 +13,10 @@ public void calulateScore(String s){
 
 
     }
-    System.out.println("Player\tPoints\tGames\tSets");
+
+}
+public void printScoreBoard(){
+    System.out.println("Player\tSets\tGames\tPoints");
     a.print();
     b.print();
     if(a.getPoints()==40&&b.getPoints()==40 && advantage!='-')
